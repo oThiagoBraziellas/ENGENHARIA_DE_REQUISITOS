@@ -100,3 +100,60 @@ Para viabilizar a entrada no mercado e escalar a solução, definem-se os canais
 
 ---
 
+## 6. Requisitos Não Funcionais (ISO/IEC 25010:2023)
+
+A qualidade do sistema foi ancorada no modelo de qualidade de produto da **ISO/IEC 25010:2023**, com critérios **mensuráveis e testáveis** — evitando requisitos vagos como "o sistema deve ser rápido" ou "o sistema deve ser seguro".
+
+| **Código** | **Requisito** | **Característica ISO 25010** | **Critério de Aceitação** | **Verificação** | 
+| **RNF01** | Busca de horários responde em até 2 segundos | Eficiência de desempenho | ≤ 2s em 95% das requisições, sob carga de até 500 usuários simultâneos | Teste de carga (k6 / JMeter) | 
+| **RNF02** | Comunicação criptografada via HTTPS/TLS 1.2+ | Segurança | 100% das rotas com TLS ativo | Varredura OWASP ZAP | 
+| **RNF03** | Disponibilidade mínima de 99,5% ao mês | Confiabilidade | Uptime ≥ 99,5% | Monitoramento contínuo | 
+| **RNF04** | Backup diário automatizado do banco de dados | Confiabilidade | Backup sem falha; restauração testada mensalmente | Simulação de recuperação | 
+| **RNF05** | Controle de acesso a dados sensíveis (LGPD) | Segurança | Tentativa não autorizada bloqueada e registrada | Teste de controle de acesso | 
+
+### Backlog Não Funcional
+
+| **Código** | **Requisito** | **Característica ISO 25010** | 
+| **RNF-B01** | Facilidade de agendamento (≤ 3 ações) | Capacidade de Interação | 
+| **RNF-B02** | Suporte a 50 acessos simultâneos | Eficiência de desempenho | 
+| **RNF-B03** | Autenticação em duas etapas (2FA) | Segurança | 
+| **RNF-B04** | Compatibilidade multi-navegador | Compatibilidade | 
+| **RNF-B05** | Responsividade em múltiplas telas | Capacidade de Interação | 
+
+## 7. Priorização MoSCoW
+
+Para evitar a **"síndrome do tudo é urgente"**, cada requisito passou por um filtro objetivo:
+
+> *"Se o sistema for lançado sem este item, a operação da clínica trava ou existe violação legal?"*
+
+Apenas os itens que passaram nesse teste foram classificados como **Must Have**. Resultado consolidado:
+
+* **7 requisitos funcionais Must** (RF01 a RF07) — núcleo vital do fluxo de agendamento.
+
+* **5 requisitos não funcionais Must** (RNF01 a RNF05) — exigências de LGPD, segurança, disponibilidade e integridade dos dados.
+
+* **Total do MVP: 12 itens inegociáveis.**
+
+Requisitos como lembretes automáticos, prontuário eletrônico e fila de espera foram rebaixados para **Should Have** — a clínica consegue operar manualmente na V1 sem eles.
+
+## 8. Equilíbrio Financeiro e Métricas 
+
+### 8.1 O Equilíbrio Financeiro
+
+A sustentabilidade do produto é obtida através do balanceamento entre os fluxos de entrada de valor e os investimentos operacionais necessários para a manutenção da plataforma:
+
+* **Receitas (Bloco 6):**
+
+  * **Modelos de Precificação:** Assinatura (SaaS), Freemium e Taxas por transação.
+
+* **Custos (Bloco 7):**
+
+  * **Esforço de Mercado:** Investimentos em infraestrutura de servidores, marketing, equipe (pessoas) e desenvolvimento contínuo do software.
+
+### 8.2 O Termômetro de Sucesso (Bloco 8 — Métricas-Chave)
+
+Medição contínua da tração do produto com **foco implacável em Conversão e Retenção**:
+
+* **Métricas de Valor:** Focadas em gerar resultado sustentável para o negócio (Conversão e Retenção de usuários).
+
+* **Métricas de Vaidade:** Indicadores secundários que apenas inflam o ego, mas não movem o ponteiro de resultado real do produto.
