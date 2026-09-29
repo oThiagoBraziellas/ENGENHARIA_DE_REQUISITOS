@@ -1,14 +1,9 @@
 # Mapeamento de Cliente e Problemas
 
-## 🎯 Segmento de Clientes
+## Segmento de Clientes
 
 **Perfil Principal:** Pequenos e médios produtores rurais.
 
-### Objetivos e Necessidades:
-* **Eficiência:** Aumentar o controle e o monitoramento constante de suas propriedades.
-* **Redução de Custos:** Diminuir custos operacionais recorrentes.
-* **Agilidade:** Identificar possíveis falhas ou pragas nas lavouras rapidamente.
-* **Autonomia:** Gerenciar a propriedade sem necessitar de grandes equipes técnicas especializadas.
 
 ---
 
