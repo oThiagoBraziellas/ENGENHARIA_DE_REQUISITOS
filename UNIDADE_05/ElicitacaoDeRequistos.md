@@ -36,22 +36,12 @@ O monitoramento agrícola envolve uma rede de atores afetados direta e indiretam
 
 Os primeiros adotantes da solução são produtores que possuem a dor mais latente e maior disposição para testar novas abordagens tecnológicas.
 
-+-------------------------------------------------------------------------------+
-| PERFIL DO EARLY ADOPTER                                                       |
-+-------------------------------------------------------------------------------+
-| • Identificação: Produtores de médio porte ou a segunda geração (jovens       |
-|   gestores) assumindo a liderança operacional da propriedade.                |
-|                                                                               |
-| • Comportamento: Já utilizam dispositivos móveis na rotina do campo           |
-|   (aplicativos de comunicação e clima) e buscam modernização, mas evitam      |
-|   sistemas complexos e de alto custo.                                         |
-|                                                                               |
-| • Gatilho da Dor: Sofreram perdas recentes por detecção tardia de pragas      |
-|   ou estresse hídrico, ou enfrentam escassez severa de mão de obra.          |
-|                                                                               |
-| • Necessidade Central: Precisam de direcionamento objetivo ("onde ir hoje")  |
-|   sem a necessidade de treinamento técnico extenso.                           |
-+-------------------------------------------------------------------------------+
+> ### Perfil Consolidado do Early Adopter
+>
+> * **Identificação:** Produtores de médio porte ou a segunda geração (jovens gestores) assumindo a liderança operacional da propriedade.
+> * **Comportamento:** Já utilizam dispositivos móveis na rotina do campo (aplicativos de comunicação e clima) e buscam modernização, mas evitam sistemas complexos e de alto custo.
+> * **Gatilho da Dor:** Sofreram perdas recentes por detecção tardia de pragas ou estresse hídrico, ou enfrentam escassez severa de mão de obra.
+> * **Necessidade Central:** Precisam de direcionamento objetivo ("onde ir hoje") sem a necessidade de treinamento técnico extenso.
 
 ## 3. Principais Problemas Mapeados
 
