@@ -69,6 +69,34 @@ Os primeiros adotantes da solução são produtores que possuem a dor mais laten
 | **Decisões sem Dados Atualizados** | Agrônomo / Consultor | Recomendações baseadas em suposições ou amostragem visual pontual | Alto | 
 | **Barreira de Custo e Complexidade** | Mercado Geral / Pequeno Produtor | Exclusão tecnológica e desvantagem competitiva frente aos grandes produtores | Médio | 
 
-## 5. Síntese do Cenário
+## 5. Canais - O Motor (Aquisição, Vendas e Distribuição)
 
-O produtor rural de médio porte e seu consultor técnico necessitam de direcionamento focado. A demanda central é por ferramentas que indiquem com precisão o talhão que exige intervenção imediata, otimizando rotas de inspeção e reduzindo custos operacionais.
+Para viabilizar a entrada no mercado e escalar a solução, definem-se os canais de tração para alcançar o cliente em suas diferentes etapas do funil:
+
+### A. Canais Orgânicos
+
+* **Indicações e Prova Social (Boca a Boca):**
+  * *Agrônomos e Consultores Independentes:* Ao vivenciarem a otimização do tempo de deslocamento, tornam-se promotores naturais, recomendando a ferramenta para sua carteira de produtores.
+  * *Rede de Produtores Vizinhos:* O sucesso de um *Early Adopter* em um talhão serve como vitrine e gatilho de recomendação para propriedades vizinhas.
+* **SEO e Marketing de Conteúdo Técnico:**
+  * Produção de guias e artigos focados nas dores mapeadas (ex.: *"Como otimizar a rota da equipe de campo"*, *"Identificação precoce de estresse hídrico"*), atraindo tráfego qualificado na web.
+* **Parcerias com Cooperativas de Insumos:**
+  * Acordos de distribuição e indicação direta via corpo técnico das cooperativas, alinhados com o interesse de mitigar riscos de inadimplência decorrentes de perdas de safra.
+
+### B. Canais Pagos
+
+* **Anúncios Digitais Direcionados (Anúncios):**
+  * *Meta Ads (Instagram / Facebook):* Campanhas geolocalizadas em polos agrícolas direcionadas a jovens gestores.
+  * *Google Search Ads:* Captura de demanda ativa por termos de busca como *"aplicativo de monitoramento de lavoura"*, *"gestão de talhões"* ou *"controle de pragas agrícola"*.
+  * *YouTube Ads:* Demonstrações rápidas em vídeo destacando a usabilidade prática ("sabendo exatamente onde ir hoje no campo").
+* **Presença em Eventos e Feiras Agrícolas Regionais:**
+  * Participação em Dias de Campo, feiras de tecnologia agrícola e eventos de cooperativas locais para demonstração prática e validação presencial.
+
+### C. Estratégia Integrada de Execução
+
+1. **Aquisição:** Atração de *leads* qualificados combinando a agilidade dos **Anúncios Pagos** (focados nas dores de perdas operacionais recentes) com a credibilidade das **Indicações Orgânicas** de consultores técnicos.
+2. **Vendas:** Modelo de venda simplificado (*Inside Sales* ou vendas diretas leves), focado em demonstrações no smartphone que comprovem a facilidade de uso sem a necessidade de treinamentos extensos.
+3. **Distribuição:** Disponibilização imediata do aplicativo nas lojas digitais (Google Play Store e Apple App Store) com processo de *onboarding* intuitivo.
+
+---
+
