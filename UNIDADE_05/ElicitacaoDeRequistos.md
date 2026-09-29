@@ -180,3 +180,37 @@ A Vantagem Injusta representa os diferenciais estratégicos que **não podem ser
    * *Algoritmo Proprietário de Roteamento:* Sistema patenteado de priorização que converte imagens de satélite/drones em itinerários diários de inspeção ("onde ir hoje").
    * *Modelos IA Proprietários:* Registros e segredos comerciais de modelos treinados em imagens agrícolas específicas para culturas locais.
 
+10. Análise de Trade-offs
+10.1 Segurança vs. Capacidade de Interação
+
+2FA obrigatório para médicos e gerentes, considerando o acesso a dados clínicos e os requisitos da LGPD. Para o autoatendimento do paciente, pode-se utilizar autenticação simplificada por SMS ou e-mail, considerando o menor nível de risco de exposição.
+
+10.2 Eficiência de Desempenho vs. Confiabilidade
+
+Priorizar a consistência do banco de dados, realizando verificações e bloqueios antes da confirmação das operações, mesmo que isso acrescente alguns milissegundos de latência. Evitar conflitos relacionados à RN02 é mais importante do que obter o menor tempo de resposta possível.
+
+10.3 Adequação Funcional vs. Fluidez
+
+Executar todas as validações necessárias, como escala, CPF e disponibilidade, no backend. Dessa forma, o sistema preserva uma experiência fluida para o usuário sem comprometer a integridade e a consistência dos dados.
+
+10.4 Confiabilidade vs. Custo
+
+Aceitar os custos associados à alta disponibilidade e à utilização de backups redundantes. Por se tratar de um sistema voltado à área da saúde, períodos de indisponibilidade podem impactar diretamente o atendimento aos pacientes.
+
+10.5 Compatibilidade vs. Privacidade
+
+Quando a RF-B01 for priorizada, restringir o conteúdo enviado ao mínimo necessário para a operação, contendo apenas informações como nome, data e horário, sem incluir informações clínicas ou sensíveis desnecessárias.
+
+10.6 Flexibilidade vs. Manutenibilidade
+
+Adotar uma arquitetura modular e simples durante o MVP, evitando over-engineering prematuro. A generalização e a expansão da arquitetura devem ocorrer conforme novas necessidades forem confirmadas.
+
+11. Indicadores de Desempenho Operacional (KPIs)
+Indicador	O que mede	Fórmula / Método
+Taxa de No-Show	Percentual de pacientes que não comparecem aos atendimentos, servindo como linha de base para avaliar a eficácia dos lembretes.	(Faltas / Total de agendamentos) × 100
+Taxa de Ocupação da Agenda	Aproveitamento da capacidade de atendimento disponível.	(Horários ocupados / Horários disponíveis) × 100
+Tempo Médio de Atendimento na Recepção	Eficiência do atendimento realizado pela recepção.	Tempo entre a chegada do paciente e sua alteração para o status "Em Espera".
+Tempo Médio de Espera do Paciente	Tempo de espera do paciente antes do início do atendimento.	Tempo entre a alteração para "Em Espera" e o início do atendimento.
+Índice de Retrabalho no Cadastro	Eficácia da centralização e qualidade dos dados cadastrais.	Número de ocorrências de recadastro ou correção de dados.
+Índice de Disponibilidade	Cumprimento da meta de disponibilidade definida na RNF03.	Monitoramento contínuo do percentual de disponibilidade do sistema.
+Tempo de Resposta de Busca	Cumprimento da meta de desempenho definida na RNF01.	Percentil 95 (P95) do tempo de resposta das operações de busca.
