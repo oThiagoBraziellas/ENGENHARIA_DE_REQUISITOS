@@ -67,17 +67,6 @@ Os primeiros adotantes da solução são produtores que possuem a dor mais laten
 
    * Gastos elevados com equipe, combustível e logística para realizar varreduras e inspeções presenciais recorrentes.
 
-4. **Desperdício de Tempo em Inspeções Presenciais**
-
-   * Tempo excessivo dedicado à vistoria de talhões que estão saudáveis, por falta de triagem prévia sobre onde a atenção é realmente necessária.
-
-5. **Barreira de Acesso a Tecnologias Avançadas**
-
-   * Falta de adoção de soluções modernas devido ao custo proibitivo de aquisição/manutenção ou à extrema complexidade de operação das ferramentas existentes no mercado.
-
-6. **Decisões Baseadas em Dados Insuficientes**
-
-   * Dificuldade na tomada de decisões ágeis e assertivas devido à escassez de dados atualizados, objetivos e centralizados sobre a real condição da lavoura.
 
 ## 4. Matriz de Mapeamento: Problemas x Stakeholders
 
