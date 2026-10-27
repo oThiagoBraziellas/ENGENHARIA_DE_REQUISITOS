@@ -1,6 +1,6 @@
 # Mapeamento de Stakeholders, Early Adopters e Problemas
 
-## 1. Ecossistema de Stakeholder
+## 1. Ecossistema de Stakeholders
 
 O monitoramento agrícola envolve uma rede de atores afetados direta e indiretamente pelos problemas de gestão no campo.
 
